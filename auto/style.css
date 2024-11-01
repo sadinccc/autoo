@@ -1,0 +1,35 @@
+body {
+    background-image: url(Screenshot\ 2024-10-31\ 143142.png);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#record {
+    margin-top: 20px;
+    font-size: 40px;
+    background-color: lightblue;
+    text-align: center;
+    width: 900px;
+    margin-left: 350px;
+    line-height: 90px;
+    border: solid 1.5px orange;
+}
+#mala {
+    background-color: lightblue;
+    font-size: 35px;
+    line-height: 80px;
+    width: 600px;
+    text-align: center;
+    margin-left: 480px;
+    border: solid 1.5px orange;
+}
+#login {
+    margin-left: 700px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(252, 185, 61);
+    color: white;
+    width: 200px;
+}
