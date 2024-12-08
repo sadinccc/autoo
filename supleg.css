@@ -1,0 +1,69 @@
+/* Base styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header#india {
+    background-color: #000080; /* Dark blue background */
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+}
+
+h1,
+h2 {
+    color: #333; /* Dark gray for better readability */
+}
+
+h1 a {
+    text-decoration: none;
+    color: #0066cc; /* Blue link color */
+}
+
+h1 a:hover {
+    text-decoration: underline; /* Link underlines when hovered */
+}
+
+a#nee {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a#nee:hover {
+    background-color: #004080; /* Darker blue on hover */
+}
+
+/* Media query for small screens (phone size) */
+@media (max-width: 600px) {
+    header#india {
+        font-size: 1.5em; /* Smaller header on phones */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em; /* Smaller h1 font size for phones */
+    }
+
+    h2 {
+        font-size: 1em; /* Smaller h2 font size for phones */
+    }
+
+    a#nee {
+        font-size: 0.9em; /* Smaller 'Back' button text */
+        padding: 8px 16px; /* Adjusted padding for phones */
+    }
+
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+}

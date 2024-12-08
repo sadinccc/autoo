@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+}
+header {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+}
+p {
+    font-size: 50px;
+    position: absolute;
+    bottom: 450px;
+    text-align: center;
+}
+#diiv {
+    width: 80%;
+    height: 500px;
+    color: rgb(0, 84, 84);
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 200px;
+    font-size: 30px;
+    border: 3px solid red;
+    background-color: white;
+}
+#face {
+    text-decoration: none;
+    background-color: rgb(41, 41, 162);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 12px;
+    margin-left: 300px;
+    position: absolute;
+    bottom: 30px;
+}
+#twit {
+    text-decoration: none;
+    background-color: rgb(64, 184, 232);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 12px;
+    margin-left: 600px;
+    position: absolute;
+    bottom: 30px;
+}
